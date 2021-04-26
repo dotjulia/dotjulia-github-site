@@ -41,7 +41,7 @@
             <p class="subtitle">
               check out
               <b-tooltip position="is-top" label="soon">
-                <a>kalimba</a>
+                <a href="https://kalimba.chat">kalimba</a>
               </b-tooltip>
             </p>
           </div>
@@ -57,7 +57,7 @@
           </div>
         </b-carousel-item>
       </b-carousel>
-      <div class="is-flex is-justify-content-end">
+      <div class="is-flex chrome-fix">
         <b-button
           class="next-button"
           @click="page++"
@@ -164,6 +164,9 @@ body {
 .secondpage {
   //padding-right: 5vw;
   //width: 300px;
+}
+.chrome-fix {
+  justify-content: flex-end !important;
 }
 .next-button {
   color: $primary !important;
